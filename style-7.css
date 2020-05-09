@@ -17,7 +17,7 @@
 }
 
 #color {
-    color: #E9535D;
+    color: #ffffff;
     padding-top: 150px;
 }
 
@@ -26,8 +26,8 @@
     text-align: center;
     font-size: 50px;
     padding: 50px;
-    border-top: 2px solid #E9535D;
-    border-bottom: 2px solid #E9535D;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 #li>first-child {
@@ -63,15 +63,27 @@
     text-align: left;
 }
 
-.nav>ul>li:first-child {
+#first-child>a {
     border-left: none;
 }
 
-.button {
-    text-align: right;
+#second-child>a {
+    background-color: #002342;
+}
+
+.button>i>input {
     background-color: #4F91CD;
     color: black;
-    padding-right: 20px;
+    padding: 8px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#button {
+    background-color: #4F91CD;
+    padding: 8px;
+    width: 8%;
+    border-radius: 5px;
 }
 
 .main>ul>li>a {
